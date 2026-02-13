@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semangat untuk Vanessa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"> <!-- Font feminin untuk header -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #FFB6C1, #FFFFFF); /* Gradien pink lembut ke putih */
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #DA70D6; /* Lavender untuk header */
+            color: white;
+            padding: 2rem;
+            font-family: 'Dancing Script', cursive; /* Font tangan feminin */
+            font-size: 2.5rem;
+            position: relative;
+        }
+        header::after {
+            content: "💖"; /* Ikon hati untuk dekorasi */
+            font-size: 2rem;
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+        .message {
+            font-size: 1.5rem;
+            margin: 2rem 0;
+            animation: fadeIn 3s ease-in-out;
+            line-height: 1.6;
+        }
+        .image-gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 2rem 0;
+        }
+        .image-gallery img {
+            width: 200px;
+            height: 150px;
+            margin: 0.5rem;
+            border-radius: 50%; /* Bentuk bulat untuk kesan feminin */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border: 3px solid #FFB6C1; /* Border pink */
+        }
+        footer {
+            background-color: #DA70D6; /* Lavender untuk footer */
+            color: white;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-family: 'Dancing Script', cursive;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Semangat untuk Vanessa! 💕</h1>
+        <p>Kamu cantik, kuat, dan penuh inspirasi!</p>
+    </header>
+    
+    <div class="container">
+        <div class="message">
+            <p>Hai Vanessa,</p>
+            <p>Saya ingin mengucapkan semangat kepadamu. Kamu adalah wanita luar biasa yang penuh kelembutan dan kekuatan. Apa pun tantangan yang sedang kamu hadapi, ingatlah bahwa kamu bisa mengatasi semuanya dengan senyum dan tekadmu. Teruslah bersinar, karena dunia butuh cahayamu!</p>
+            <p>Dengan cinta dan dukungan,</p>
+            <p>[Nama Anda]</p>
+        </div>
+        
+        <div class="image-gallery">
+            <!-- Ganti src dengan gambar bunga atau motivasi feminin Anda -->
+            <img src="https://via.placeholder.com/200x150/FFB6C1/FFFFFF?text=Bunga+1" alt="Bunga Motivasi 1">
+            <img src="https://via.placeholder.com/200x150/DA70D6/FFFFFF?text=Bunga+2" alt="Bunga Motivasi 2">
+            <img src="https://via.placeholder.com/200x150/FF69B4/FFFFFF?text=Bunga+3" alt="Bunga Motivasi 3">
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 - Dibuat dengan cinta untuk Vanessa 💖</p>
+    </footer>
+    
+    <script>
+        // JavaScript untuk animasi halus saat halaman dimuat
+        window.onload = function() {
+            const message = document.querySelector('.message');
+            message.style.animation = 'fadeIn 3s ease-in-out';
+        };
+    </script>
+</body>
+</html>
